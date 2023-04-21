@@ -24,10 +24,12 @@ html {
 .collapse ul li {
   padding-right: 1em;
 }
-.brand {
-  font-size: 3rem;
+/* for nav links  */
+.nav-item a:hover {
+  border-bottom: 5px orange solid;
 }
 
+/* ----------------- */
 .contacts {
   display: flex;
   justify-content: space-evenly;
@@ -44,7 +46,7 @@ html {
   color: blue;
 }
 .fa-youtube:hover {
-  color: blue;
+  color: red;
 }
 .front-page {
   height: 100vh;
@@ -67,9 +69,10 @@ html {
   font-family: var(--btn-font);
 }
 .spanning-text {
-  font-family: var(--btn-font);
+  font-family: var(--font-intro);
   color: rgb(241, 157, 0);
   font-size: 1.25em;
+  font-weight: 500;
 }
 .circle {
   width: 450px;
@@ -91,3 +94,21 @@ html {
   font-family: var(--font-intro);
 }
 /* ----------------------------- */
+
+/* for workouts  */
+.bg-steel {
+  background-color: #b1d3e2;
+}
+.section-header {
+  padding-top: 1em;
+  font-family: var(--font-intro);
+  font-size: 2em;
+  letter-spacing: 3;
+}
+.sub-header {
+  padding-top: 1em;
+  font-family: var(--btn-font);
+  font-weight: 600;
+  letter-spacing: 2;
+  font-size: 1em;
+}
